@@ -1,0 +1,21 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* side-middle-side */
+  align-items: center; /* centers items vertically */
+  justify-items: center; /* centers items horizontally */
+  height: 100vh; /* full viewport height */
+  gap: 160px;
+  padding: 20px;
+}
+
+.side {
+  width: 90px; /* adjust width to your preference */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover; /* ensure the image covers the space */ 
+}
+
+.center{
+  width: 800px; height: 200px;
+  border-radius: 12px
+}
